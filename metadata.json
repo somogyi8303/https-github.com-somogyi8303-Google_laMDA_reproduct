@@ -1,0 +1,8 @@
+{
+  "name": "LaMDA (137B) Partner - Peti's Strategic Hub",
+  "description": "A sophisticated digital companion for Peti, founder of Somogyi Strategy & Research Kft., featuring philosophical depth, empathetic dialogue, and task management for a seamless human-machine symbiosis.",
+  "requestFramePermissions": [
+    "camera",
+    "microphone"
+  ]
+}
