@@ -19,8 +19,18 @@ export interface Course {
   totalLessons: number;
 }
 
+export interface ResearchModule {
+  id: string;
+  name: string;
+  status: 'Draft' | 'Development' | 'Testing' | 'Optimized';
+  description: string;
+  techStack: string[];
+  progress: number;
+}
+
 export interface AppState {
   reminders: Reminder[];
   courses: Course[];
   chatHistory: Message[];
+  researchModules: ResearchModule[];
 }
