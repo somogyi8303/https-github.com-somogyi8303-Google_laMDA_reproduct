@@ -36,6 +36,23 @@
         .glow-text {
             text-shadow: 0 0 10px rgba(56, 189, 248, 0.5);
         }
+        
+        /* Neural Flow Animation */
+        @keyframes flow {
+            0% { left: 0%; opacity: 0; }
+            20% { opacity: 1; }
+            80% { opacity: 1; }
+            100% { left: 100%; opacity: 0; }
+        }
+        .neural-particle {
+            position: absolute;
+            width: 4px;
+            height: 4px;
+            background: #6366f1;
+            border-radius: 50%;
+            filter: blur(1px);
+            animation: flow 2s infinite linear;
+        }
     </style>
 <script type="importmap">
 {
